@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+button {
+  background: #2d2d2d;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #e0e0e0;
+}
+
+button:hover {
+  background: #404040;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input, select {
+  background: #2d2d2d;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  color: #e0e0e0;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+input:focus, select:focus {
+  border-color: #0099ff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 153, 255, 0.2);
+}
+
+.project-card {
+  background: #2d2d2d;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  border: 1px solid #404040;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0099ff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.tag {
+  background: #404040;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #b0b0b0;
+  transition: all 0.2s ease;
+}
+
+.tag:hover {
+  background: #505050;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+option {
+  background: #2d2d2d;
+  color: #e0e0e0;
+  padding: 8px;
+}
+
+.notification {
+  background: #2d2d2d;
+  border-radius: 8px;
+  padding: 16px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #404040;
+}
